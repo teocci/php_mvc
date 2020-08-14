@@ -1,0 +1,21 @@
+{
+  "name": "teocci/smart-credit",
+  "type": "project",
+  "keywords": [
+    "SmartCredit"
+  ],
+  "homepage": "https://github.com/teocci",
+  "license": "MIT",
+  "require": {
+    "twig/twig": "~3.0",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "App\\": "App/"
+    }
+  }
+}
